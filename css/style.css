@@ -12097,3 +12097,9 @@ ol.commentlist li::after {
   	font-size: 16px;
   	color: #4a4a4a;
 }
+.top-links-a{
+	color: #767676;
+}
+.top-links-a:hover{
+	color: #f39c12
+}
