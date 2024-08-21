@@ -7069,10 +7069,15 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	padding:23px 0;
 	position:relative;
 	z-index:9;
+	display: none;
+	/*changed */
+	
 }
 .extra-nav .extra-cell{
 	display:inline-block;
 	margin-left:10px;
+	display: none; 
+	/*changed */
 }
 @media only screen and (max-width:480px) {
 .extra-nav {
@@ -7656,6 +7661,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }	
 .extra-nav .extra-cell {
 	margin-left:0;
+	display: none;
+	/*changed */
 }
 }
 .is-fixed .navbar-toggle { 
