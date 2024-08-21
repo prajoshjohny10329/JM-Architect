@@ -36,7 +36,9 @@
     position: absolute;
     right: -40px;
     top:200px;
-	 box-shadow:7px 0 5px rgba(0, 0, 0, 0.1); 
+	box-shadow:7px 0 5px rgba(0, 0, 0, 0.1);
+	display: none;
+	/* changed */
 }
 .switch-btn {
     background: #fff none repeat scroll 0 0;
