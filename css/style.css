@@ -3697,15 +3697,7 @@ ol.list-num-count.list-outline-none > li:before {
 	font-weight:600;
 	font-style:normal;
 	position:relative;
-	padding-left:10px;
-	margin-left:10px;
 	text-transform:uppercase;
-}
-.testimonial-1 .testimonial-position:after,
-.testimonial-grid-1  .testimonial-position:after{
-	content:"/";
-	position:absolute;
-	left:-4px;
 }
 .testimonial-1,
 .testimonial-grid-1 {
