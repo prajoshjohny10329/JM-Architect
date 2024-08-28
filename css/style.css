@@ -608,6 +608,11 @@ Version: 2.0
 /*======================================
 1. GENERAL 
 ======================================*/
+/*======================================*/
+@import url("responsive.css");
+
+/*======================================*/
+
 @media only screen and (min-width: 1200px){
 	.container, .container-lg, .container-md, .container-sm, .container-xl {
 		max-width: 1170px;
