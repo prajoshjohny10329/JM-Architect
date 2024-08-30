@@ -12121,7 +12121,6 @@ ol.commentlist li::after {
 }
 
 /* ======= Gallery style ======= */
-/* . {
-  position: relative;
-  padding-top: 20px;
-} */
+.gallery-box{
+	padding: 10px;
+}
