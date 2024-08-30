@@ -804,7 +804,25 @@
 <script   src="js/switcher.js"></script><!-- SWITCHER FUCTIONS  -->
 
 <script>
-    
+    $(document).ready(function() {
+        $('.popup-link').magnificPopup({
+            type: 'image',
+            gallery:{
+                enabled:true
+            },
+            // Navigation options
+            navigation: {
+                enabled: true,
+                // Customize arrow markup
+                prevArrow: '<button class="mfp-arrow mfp-arrow-left"></button>',
+                nextArrow: '<button class="mfp-arrow mfp-arrow-right"></button>'
+            }
+        });
+    });
+
+    $(document).ready(function() {
+  $('.video-link').YouTubePopUp();
+});
 </script>
 
 
