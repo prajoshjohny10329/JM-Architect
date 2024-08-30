@@ -12110,3 +12110,12 @@ ol.commentlist li::after {
 .link-hover:hover{
 	color: #f39c12
 }
+.enquiry-btn{
+	background: #ffb804;
+	color: #fff;
+	padding: 7px 12px;
+	border-radius: 3px;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
