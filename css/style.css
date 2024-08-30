@@ -8472,6 +8472,7 @@ header .logo{
 .header-style-1 .is-fixed .main-bar {
 	position:fixed;
 	background:#fff;
+	box-shadow: -1px -2px 10px black;
 }
 /*-------------------------------------
 	11. header style 5 (header black overlay)
