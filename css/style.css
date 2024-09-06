@@ -12125,3 +12125,23 @@ ol.commentlist li::after {
 .gallery-box{
 	padding: 10px;
 }
+.center-box-div{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 30px 10px;
+}
+.see-more-btn{
+	background: #ffbc13;
+	color: white;
+	padding: 9px 36px;
+	font-weight: bold;
+	font-size: larger;
+    box-shadow: 6px 7px 10px 0px #00000045;
+}
+.see-more-btn:hover{
+	color: #ffbc13;
+	background : white;
+	box-shadow: 9px 6px 10px 0px #a5a5a5;
+    border: solid #f0f0f0 0.1px;
+}
