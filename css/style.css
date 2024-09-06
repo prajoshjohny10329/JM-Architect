@@ -4718,6 +4718,9 @@ ol.list-num-count.list-outline-none > li:before {
 .wt-breadcrumb li a{ 
 	color:#FFBC13;	
 }
+.wt-breadcrumb li a:hover{ 
+	color:#ffffff;	
+}
 .wt-breadcrumb li:last-child { 
 	color:#676767;
 }
