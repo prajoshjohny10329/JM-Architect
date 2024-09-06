@@ -494,6 +494,76 @@
             <!-- SERVICES CONTENT END -->  
         </div>
         <!-- CONTENT END -->
+
+        <!-- LATEST PROJECT SECTION START -->
+        <div class="section-full section-hidden bg-white p-t80 p-b40 scale-bg-top scale-bg-bottom ">
+            <div class="container">
+                <!-- IMAGE CAROUSEL START -->
+
+                    <div class="logo-container">
+                        <img src="images/JM-only-logo.PNG" alt="JM-icon-logo" class="bouncing-logo">
+                    </div>
+                
+                    <!-- TITLE START -->
+                    <div class="section-head text-center">
+                        <h2 class="text-uppercase">Our Previous Works Gallery</h2>
+                        <div class="wt-separator-outer">
+                            <div class="wt-separator style-square">
+                              <span class="separator-left site-bg-primary"></span>
+                              <span class="separator-right site-bg-primary"></span>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- TITLE END -->
+                    
+                    <!-- CAROUSEL -->
+                    <div >
+                        <div class="row">
+                            <!-- 2 columns -->
+                            <div class="col-md-6">
+                                <a href="images/gallery/1.jpg" title="" class="popup-link">
+                                    <div class="gallery-box">
+                                        <div class="gallery-img"> <img src="images/gallery/1.jpg" class="img-fluid mx-auto d-block gallery-img" alt="work-img"> </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 ">
+                                <a href="images/gallery/2.jpg" title="" class="popup-link">
+                                    <div class="gallery-box">
+                                        <div class="gallery-img"> <img src="images/gallery/2.jpg" class="img-fluid mx-auto d-block gallery-img" alt="work-img"> </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- 3 columns -->
+                            <div class="col-md-4">
+                                <a href="images/gallery/3.jpg" title="" class="popup-link">
+                                    <div class="gallery-box">
+                                        <div class="gallery-img"> <img src="images/gallery/3.jpg" class="img-fluid mx-auto d-block gallery-img"  alt="work-img"> </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4 ">
+                                <a href="images/gallery/4.jpg" title="" class="popup-link">
+                                    <div class="gallery-box">
+                                        <div class="gallery-img"> <img src="images/gallery/4.jpg" class="img-fluid mx-auto d-block gallery-img" alt="work-img"> </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4 ">
+                                <a href="images/gallery/5.jpg" title="" class="popup-link">
+                                    <div class="gallery-box">
+                                        <div class="gallery-img"> <img src="images/gallery/5.jpg" class="img-fluid mx-auto d-block gallery-img" alt="work-img"> </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center-box-div">
+                        <a href="gallery.html" class="see-more-btn">See More</a>
+                    </div>
+             </div>
+         </div>
+        <!-- LATEST PROJECT SECTION END --> 
         
         <!-- FOOTER START -->
         <footer class="site-footer footer-dark">
@@ -846,6 +916,23 @@
 <script   src="js/shortcode.js"></script><!-- SHORTCODE FUCTIONS  -->
 <script   src="js/switcher.js"></script><!-- SWITCHER FUCTIONS  -->
 
+<script>
+    $(document).ready(function() {
+        $('.popup-link').magnificPopup({
+            type: 'image',
+            gallery:{
+                enabled:true
+            },
+            // Navigation options
+            navigation: {
+                enabled: true,
+                // Customize arrow markup
+                prevArrow: '<button class="mfp-arrow mfp-arrow-left"></button>',
+                nextArrow: '<button class="mfp-arrow mfp-arrow-right"></button>'
+            }
+        });
+    });
+</script>
 
 </body>
 
