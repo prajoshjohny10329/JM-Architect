@@ -12148,3 +12148,11 @@ ol.commentlist li::after {
 	box-shadow: 9px 6px 10px 0px #a5a5a5;
     border: solid #f0f0f0 0.1px;
 }
+.services-box-div{	
+	display: flex;
+	justify-content: center;
+}
+.services-box-logo{
+	width: 127px;
+  	padding: 0px 3px 10px 0px;
+}
