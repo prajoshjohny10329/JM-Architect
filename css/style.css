@@ -3663,6 +3663,9 @@ ol.list-num-count.list-outline-none > li:before {
 	color:#fff;
 }
 /*7.2 testimonial 1*/
+.testimonial-1{
+	padding: 0px 20px;
+}
 .owl-carousel.testimonial-one .testimonial-1{
 	max-width: 600px;
 	margin: 0px auto;
