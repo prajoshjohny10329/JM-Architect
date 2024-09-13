@@ -3639,7 +3639,7 @@ ol.list-num-count.list-outline-none > li:before {
 	right:0; 
 }
 .testimonial-text {
-	padding:15px;
+	/* padding:15px; */
 	position:relative;
 }
 .testimonial-text p:last-child{
