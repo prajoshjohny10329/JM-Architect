@@ -12163,3 +12163,9 @@ ol.commentlist li::after {
 	width: 127px;
   	padding: 0px 3px 10px 0px;
 }
+.footer-link{
+	color: #999;
+}
+.footer-link:hover{
+	color: var(--yellow-color);
+}
