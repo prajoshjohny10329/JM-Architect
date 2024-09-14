@@ -2143,6 +2143,7 @@ ol.list-num-count.list-outline-none > li:before {
 .wt-info.border-5 {
 	border-top:none;
 }
+
 /*-------------------------------------
 	10. before & after for line css
 -------------------------------------*/
@@ -12045,7 +12046,7 @@ ol.commentlist li::after {
 /* index service section  */
 
 .wt-info{
-	padding: 30px 15px 3px;
+	padding: 15px 14px ;
 }
 .services-box{
 	box-shadow: 6px 4px 10px;
