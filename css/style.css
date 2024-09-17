@@ -1499,7 +1499,9 @@ ol.list-num-count.list-outline-none > li:before {
 .item{
 	margin: 30px 0px;
 }
-
+.wt-media{
+	box-shadow: 6px 4px 10px;
+}
 
 .wt-box,
 .wt-info,
