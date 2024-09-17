@@ -151,21 +151,21 @@ h6 a:hover {
   color:#ffbc13;
 }
 h1 {
-  font-family:Roboto;	
+  font-family: 'Century Gothic Paneuropean', sans-serif;
   font-weight: 600;	
   font-size: 36px;
   line-height:36px;
   color:#3d474a;
 }
 h2 {
-  font-family:Roboto;	
+  font-family: 'Century Gothic Paneuropean', sans-serif;
   font-weight: 600;	
   font-size: 24px;
   line-height:24px;
   color:#1a1a1a;
 }
 h3 {
-  font-family:Roboto;	
+  font-family: 'Century Gothic Paneuropean', sans-serif;
   font-weight: 600;	
   font-size: 20px;
   line-height:24px;
@@ -173,7 +173,7 @@ h3 {
   margin-bottom:20px;
 }
 h4 {
-  font-family:Roboto;	
+  font-family: 'Century Gothic Paneuropean', sans-serif;
   font-weight: 600;	
   font-size: 18px;
   line-height:22px;
@@ -181,7 +181,7 @@ h4 {
   margin-bottom:15px;
 }
 h5 {
-  font-family:Roboto;	
+  font-family: 'Century Gothic Paneuropean', sans-serif;
   font-weight: 600;	
   font-size: 16px;
   line-height:22px;
@@ -189,7 +189,7 @@ h5 {
   margin-bottom:10px;
 }
 h6 {
-  font-family:Roboto;	
+  font-family: 'Century Gothic Paneuropean', sans-serif;
   font-weight: 600;	
   font-size: 14px;
   line-height:18px;
@@ -1318,6 +1318,7 @@ ol.list-num-count.list-outline-none > li:before {
 	position:relative;
 }
 .wt-icon-box-wraper .wt-tilte{
+	font-family: 'Century Gothic Paneuropean', sans-serif;
 	margin-top:0;
 }
 .wt-icon-box-wraper .after-titile-line{
