@@ -9394,11 +9394,14 @@ footer .container {
 /*-------------------------------------
 	6. scroll top btn css
 -------------------------------------*/
+.bottom-whatsapp:hover{
+background-color: #fff !important;
+}
 button.scroltop { 
 	height: 55px;  
 	width: 55px;
-	background:#161616;  
-	border:3px solid;
+	background:#000;  
+	border:0px solid;
 	position: fixed;   
 	right: 15px;   
 	bottom:15px;
@@ -9415,6 +9418,30 @@ button.scroltop {
 	border-radius: 50%;
 }
 button.scroltop span{
+	display: block;
+	font-size: 24px;
+	line-height: 24px;
+}
+.a-scroltop { 
+	height: 55px;  
+	width: 55px;
+	background:#000;  
+	border:0px solid;
+	position: fixed;   
+	right: 15px;   
+	bottom:15px;
+	font-size:11px;
+	line-height:16px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:0; 
+	padding:0;    
+	cursor: pointer;    
+	text-align:center;  
+	z-index:999;
+	border-radius: 50%;
+}
+.a-scroltop span{
 	display: block;
 	font-size: 24px;
 	line-height: 24px;
@@ -9513,6 +9540,16 @@ button.scroltop {
 	line-height:16px;
 }
 button.scroltop span {
+    font-size: 10px;
+    line-height: 10px;
+}
+.a-scroltop { 
+	font-size:7px;
+	height:30px;  
+	width: 30px;
+	line-height:16px;
+}
+.a-scroltop span {
     font-size: 10px;
     line-height: 10px;
 }
@@ -11539,15 +11576,15 @@ ol.commentlist li::after {
 	padding: 30px 10px;
 }
 .see-more-btn{
-	background: #ffbc13;
-	color: white;
+	background: #000;
+	color: #fff;
 	padding: 9px 36px;
 	font-weight: bold;
 	font-size: larger;
     box-shadow: 6px 7px 10px 0px #00000045;
 }
 .see-more-btn:hover{
-	color: #ffbc13;
+	color: #000;
 	background : white;
 	box-shadow: 9px 6px 10px 0px #a5a5a5;
     border: solid #f0f0f0 0.1px;
