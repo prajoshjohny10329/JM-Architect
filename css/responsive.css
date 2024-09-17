@@ -1,6 +1,10 @@
 @media only screen and (max-width: 768px) {
-    /* Your CSS rules go here */
     .top-bar{
        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .section-full{
+        padding: 25px;
     }
 }

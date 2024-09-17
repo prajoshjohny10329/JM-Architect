@@ -81,7 +81,7 @@ ol.list-num-count>li::before,
 .faq-block .faq-que::after,
 .faq-block .faq-ans::after,
 .animate_line:hover::after,
-.animate_line:hover::before,
+/* .animate_line:hover::before, */
 .about-com-pic::after,
 .date-style-2 .post-date,
 .custom-page.pager li>a:focus,
@@ -102,7 +102,7 @@ ol.list-num-count>li::before,
 .testimonial-grid-5 .testimonial-pic-block.radius-bx .testimonial-pic:after,
 .overlay-icon a:hover,
 .searchform input[type="submit"] {
-	background-color: #FFBC13;
+	background-color: #000000;
 }
 
 
