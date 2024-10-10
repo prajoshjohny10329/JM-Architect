@@ -80,7 +80,7 @@ ol.list-num-count>li::before,
 .wt-tabs.border-top .nav-tabs>li.active>a::after,
 .faq-block .faq-que::after,
 .faq-block .faq-ans::after,
-.animate_line:hover::after,
+/* .animate_line:hover::after, */
 /* .animate_line:hover::before, */
 .about-com-pic::after,
 .date-style-2 .post-date,

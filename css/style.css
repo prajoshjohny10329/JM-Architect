@@ -6469,7 +6469,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	padding:23px 0;
 	position:relative;
 	z-index:9;
-	display: none;
+	display: none !important;
 	/*changed */
 	
 }
@@ -11483,6 +11483,7 @@ ol.commentlist li::after {
 }
 .services-box{
 	box-shadow: 6px 4px 10px;
+	border-radius: 10px;
 }
 .services-box:hover{
 	margin-top: -15px;
