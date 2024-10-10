@@ -11605,20 +11605,3 @@ ol.commentlist li::after {
 	color: var(--yellow-color);
 }
 
-@media only screen and (max-width: 1020px){
-	.header-middle{
-		display: none !important ;
-	}
-	.header-botton{
-		background-color: #fff !important;
-	}
-	/* #mobile-logo{
-		
-	} */
-}
-@media only screen and (min-width: 1020px){
-
-	#mobile-logo{
-		display: none !important;
-	}
-}
