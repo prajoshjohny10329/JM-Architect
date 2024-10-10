@@ -6694,7 +6694,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 @media only screen and (max-width:480px) {
 .logo-header{ 
-	width:100px;
+	/* width:100px; */
 }	
 .header-skew::before, 
 .header-skew::after {
@@ -8420,7 +8420,7 @@ header .logo{
 	left: 50%;
   }
 
-.header-style-8 .navbar-toggler .icon-bar{background: #fff; height: 3px;border-radius: 0;display: block;width: 22px;}
+.header-style-8 .navbar-toggler .icon-bar{background: #000; height: 3px;border-radius: 0;display: block;width: 22px;}
 .header-style-8 .navbar-toggler .icon-bar + .icon-bar {margin-top: 4px;}
 .header-style-8 .header-nav .has-child.nav-active>a+.submenu-toogle.fa.fa-angle-right:before {content: "\f107";}
 .header-style-8 .navbar-toggler {display: none;}
@@ -11603,4 +11603,22 @@ ol.commentlist li::after {
 }
 .footer-link:hover{
 	color: var(--yellow-color);
+}
+
+@media only screen and (max-width: 1020px){
+	.header-middle{
+		display: none !important ;
+	}
+	.header-botton{
+		background-color: #fff !important;
+	}
+	/* #mobile-logo{
+		
+	} */
+}
+@media only screen and (min-width: 1020px){
+
+	#mobile-logo{
+		display: none;
+	}
 }
